@@ -1,0 +1,78 @@
+{
+  "appointments": [
+    {
+      "name": "Mark Johnson",
+      "image": "https://example.com/doctor-image.jpg",
+      "specialization": "Pediatrician",
+      "experience": 5,
+      "location": "Chicago",
+      "date": "2023-04-06T09:30:00.000Z",
+      "slots": 1,
+      "fee": 100,
+      "id": 2
+    },
+    {
+      "name": "Rutuvik",
+      "image": "https://example.com/doctor-image.jpg",
+      "specialization": "Cardiologist",
+      "experience": "6",
+      "location": "India",
+      "date": "2023-05-26",
+      "slots": 2,
+      "fee": "250",
+      "id": 3
+    },
+    {
+      "name": "Aman",
+      "image": "https://example.com/doctor-image.jpg",
+      "specialization": "Dermatologist",
+      "experience": "3",
+      "location": "UK",
+      "date": "2023-05-28",
+      "slots": "4",
+      "fee": "150",
+      "id": 4
+    },
+    {
+      "name": "Chitra",
+      "image": "https://example.com/doctor-image.jpg",
+      "specialization": "Psychiatrist",
+      "experience": "7",
+      "location": "USA",
+      "date": "2023-05-29",
+      "slots": "2",
+      "fee": "300",
+      "id": 5
+    }
+  ],
+  "users": [
+    {
+      "username": "Rutuvik",
+      "email": "r@gmail.com",
+      "password": "r123",
+      "isDoctor": true,
+      "id": 1
+    },
+    {
+      "username": "Patil",
+      "email": "p@gmail.com",
+      "password": "p123",
+      "isDoctor": false,
+      "id": 2
+    },
+    {
+      "username": "Aman",
+      "email": "aman@gmail.com",
+      "password": "aman",
+      "isDoctor": true,
+      "id": 3
+    },
+    {
+      "username": "Chitra",
+      "email": "chitra@gmail.com",
+      "password": "chitra123",
+      "isDoctor": true,
+      "id": 4
+    }
+  ]
+}
