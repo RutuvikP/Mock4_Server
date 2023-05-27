@@ -1,10 +1,10 @@
-const json=require("json-server");
-const server=json.create();
-const router=json.router('db.json');
-const middleware=json.defaults([noCors]);
+const jsonServer=require("json-server");
+const server=jsonServer.create();
+const router=jsonServer.router('db.json');
+const middleware=jsonServer.defaults();
 
 server.use(middleware);
-server.use("/",router);
+server.use(router);
 server.listen(8080,()=>{
     console.log("Running");
 })
