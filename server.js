@@ -5,7 +5,7 @@ const middleware=jsonServer.defaults();
 
 
 server.use(middleware);
-server.use("/api",router);
+server.use(router);
 server.listen(8080,()=>{
     console.log("Running");
 })
