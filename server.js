@@ -1,7 +1,7 @@
 const json=require("json-server");
 const server=json.create();
 const router=json.router('db.json');
-const middleware=json.defaults(noCors);
+const middleware=json.defaults([noCors]);
 
 server.use(middleware);
 server.use("/",router);
